@@ -1,8 +1,30 @@
-html {
-  box-sizing: border-box;
+:root {
+  --body-font:'Fredoka', sans-serif;
+  --tilte-font:'Playfair Display', serif;
+
+  --big-font: 2rem;
+  --normal-font: 1rem;
+
+  --font-medium: 600;
+  --font-normal: 400;
 }
 
-*, *::after, *::before {
+html {
+  box-sizing: border-box;
+  line-height: 1.25;
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  :root {
+    --big-font: 2.5rem;
+    --normal-font: 1.25rem;
+  }
+}
+
+*,
+*::after,
+*::before {
   box-sizing: inherit;
 }
 
@@ -10,10 +32,28 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4 ,h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
+  font-family: var(--tilte-font);
+  font-weight: var(--font-medium);
 }
 
 img {
   max-width: 100%;
+}
+
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+  font-weight: var(--normal-font);
 }
