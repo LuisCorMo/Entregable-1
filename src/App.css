@@ -1,0 +1,35 @@
+.app {
+  background-image: url(/public/images/universe1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.app.bg1 {
+  background-image: url(/public/images/universe1.jpg);
+}
+
+.app.bg2 {
+  background-image: url(/public/images/universe2.jpg);  
+}
+
+.app.bg3 {
+  background-image: url(/public/images/universe3.jpg);  
+}
+
+.app.bg4 {
+  background-image: url(/public/images/universe4.jpg);  
+}
+
+.app__container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  padding: 0 10px;
+}
