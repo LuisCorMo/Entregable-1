@@ -1,5 +1,4 @@
 .app {
-  background-image: url(/public/images/universe1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -12,19 +11,19 @@
 }
 
 .app.bg1 {
-  background-image: url(/public/images/universe1.jpg);
+  background-image: url(/images/universe1.webp);
 }
 
 .app.bg2 {
-  background-image: url(/public/images/universe2.jpg);  
+  background-image: url(/images/universe2.webp);  
 }
 
 .app.bg3 {
-  background-image: url(/public/images/universe3.jpg);  
+  background-image: url(/images/universe3.webp);  
 }
 
 .app.bg4 {
-  background-image: url(/public/images/universe4.jpg);  
+  background-image: url(/images/universe4.webp);  
 }
 
 .app__container {

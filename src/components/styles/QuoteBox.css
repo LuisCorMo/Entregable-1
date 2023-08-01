@@ -1,16 +1,20 @@
 .quoteBox__btn {
   display: block;
-  margin: 0px auto;
-  padding: 10px;
-  border-radius: 10px;
+  margin: auto;
+  border-radius: 100%;
   border: none;
-  background-color: #259ece;
+  background-color: #f7fcfd;
   cursor: pointer;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  align-items: center;
+
 }
 
 .quoteBox__phrase {
  margin: 0px 0px 35px 0px;
  background-color: rgba(20, 20, 20, 0.514);
- padding: 10px;
+ padding: 20px;
  border-radius: 20px;
 }

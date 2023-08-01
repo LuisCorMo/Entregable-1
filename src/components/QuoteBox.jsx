@@ -8,7 +8,11 @@ const QuoteBox = ( {phrase, handleRandomQuote} ) => {
       <p>{phrase}</p>
     </article>
 
-    <button className='quoteBox__btn' onClick={handleRandomQuote}>New Information</button>
+    <button className='quoteBox__btn' onClick={handleRandomQuote}>
+      <img 
+      src="/images/load.png"
+       alt="" />
+    </button>
 
   </section>
   )
